@@ -48,7 +48,6 @@ const renderPokemonData = data => {
     renderPokemonStats(stats);
 }
 
-
 const setCardColor = types => {
     const colorOne = typeColors[types[0].type.name];
     const colorTwo = types[1] ? typeColors[types[1].type.name] : typeColors.default;
