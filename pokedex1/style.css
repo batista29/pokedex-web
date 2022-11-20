@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+
 body {
     background-image: url('https://cdnb.artstation.com/p/assets/images/images/023/229/887/original/tolunay-genc-forest.gif?1578523234');
 }
@@ -15,29 +17,17 @@ input {
 .poke-card {
     position: relative;
     height: fit-content;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 3.6vh;
     max-width: 300px;
     border-radius: 4px;
     color: rgb(34, 7, 109);
     text-align: center;
     padding: 10px;
     margin: 0 auto;
-    background-color: rgb(142, 223, 189);
+    background-color: rgb(171, 248, 216);
     border: 1px solid rgb(0, 0, 0);
     box-shadow: 10px 5px 500px rgb(111, 255, 123);
-}
-
-.poke-card::before {
-    content: '';
-    background: radial-gradient(black 33%, transparent 33%);
-    background-size: 3px 3px;
-    border-radius: 4px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    z-index: -1;
 }
 
 .img-container {
@@ -52,13 +42,14 @@ input {
     align-content: space-between;
     padding: 5px;
     font-size: 18px;
+    font-size: 2.7vh;
 }
 
 .poke-types div {
     padding: 5px;
     margin: 5px;
     border-radius: 4px;
-    border: 1px dashed black;
+    border: 1px solid black;
 }
 
 .poke-img {
