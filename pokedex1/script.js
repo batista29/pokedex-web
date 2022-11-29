@@ -13,13 +13,13 @@ const procurarPokemon = event => {
     fetch(`https://pokeapi.co/api/v2/pokemon/${value.toLowerCase()}`)
         .then(data => data.json())
         .then(response => renderPokemonData(response))
-        .catch(err => alert("Nome errado ou inexistente"))
+        .catch(err => alert("Nome/id errado ou inexistente"))
 }
 
 const renderPokemonData = data => {
     const sprite = data.sprites.front_default;
     console.log(sprite)
-    const { stats, types } = data;
+    const { stats } = data;
 
     pokeName.textContent = data.name;
     pokeImg.setAttribute('src', sprite);

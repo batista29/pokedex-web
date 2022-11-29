@@ -25,9 +25,9 @@ input {
     text-align: center;
     padding: 10px;
     margin: 0 auto;
-    background-color: rgb(171, 248, 216);
-    border: 1px solid rgb(0, 0, 0);
-    box-shadow: 10px 5px 500px rgb(111, 255, 123);
+    background-color: rgb(115, 180, 223);
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 80px 80px 1000px 80px  rgb(157, 223, 243);
 }
 
 .img-container {
@@ -41,8 +41,8 @@ input {
     justify-content: space-between;
     align-content: space-between;
     padding: 5px;
-    font-size: 18px;
-    font-size: 2.7vh;
+    font-size: 2.3vh;
+    margin-bottom: 1vh;
 }
 
 .poke-types div {
@@ -53,6 +53,10 @@ input {
 }
 
 .poke-img {
-    width: 180px;
+    height: 200px;
     border-radius: 50%;
+}
+
+.fundo{
+    height: 3vh;
 }
